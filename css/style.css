@@ -1,0 +1,1372 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+
+    
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    
+    box-sizing: border-box;
+    max-width: 1800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.first-half {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.second-half {
+    margin: 0 auto;
+}
+
+.logo-nav-sub1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 2em 0 2.5em 0;
+    
+    
+}
+
+.logo-nav-sub2 {
+    display: flex;
+    justify-content: space-between;
+    width: 16%;
+    margin: 2em 0 2.5em 0; 
+    font-size: 1.2em; 
+    color: #0065FC; 
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    color: #0065FC;
+}
+
+.logo-nav a:visited {
+    text-decoration: none;
+    color: #0065FC;
+}
+
+#nav-acc {
+    text-align: right;
+    font-size: 1.2em;
+}
+
+.logo-nav #res-logo {
+    width: 8em;
+    min-width: 8em;
+    height: 4em;
+}
+
+.nav-item {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+
+
+.logo-nav a:hover {
+    color: navy;
+    opacity: 1.0;
+}
+
+.nav-link {
+    padding-top: 10px;
+}
+
+
+.intro-line h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+    padding: 0;
+
+}
+
+.intro-line p {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+    
+}
+
+.search_wrapper {
+    display: flex; 
+    margin-bottom: 2em;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mark {
+    background-color: #F2F2F2;
+    padding: 0.75em;
+    border-radius: 1em 0 0 1em;
+}
+
+.search_wrapper .search_field {
+    display: inline-block;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    width: 10em;
+    border: 2px solid #F2F2F2;
+    padding: 1em;
+    outline: none;
+
+}
+
+.search-btn {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    border-style: none;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 1em 1em 0;
+    padding: 1em;
+    margin: 0;
+    width: 5em; 
+    outline: none;  
+}
+
+.search-btn:hover {
+    color: grey;
+}
+
+
+
+.search-txt {
+    display: block;
+}
+
+.search-btn .fa-search {
+    display: none;
+}
+
+
+.filter {
+    margin: 1em 1em 1em 0;
+    font-weight: 800;
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.filter .fil {
+    margin-right: 1.7em;
+    margin-top: 1em;
+    font-size: 1.4em;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.buttons .btn:hover {
+    background-color: #0065FC;
+    color: white;
+}
+
+
+
+.ikon {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 1.1em;
+    border-radius: 2em;
+    vertical-align: middle;
+
+}
+
+.btn {
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    border: 1px lightgray solid;
+    border-radius: 2em;
+    background-color: white;
+    margin-left: 0.7em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: 0;
+    text-align: center;
+}
+
+.buttons .btn strong {
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
+    
+
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 10em;
+    margin-top: 1em;
+    
+}
+
+.more p {
+    margin: 0;
+    margin-left: 0.5em;
+    font-size: 1.5em;
+    
+    width: 92%;    
+}    
+
+.infor {
+    font-size: 1em;
+    height: 0.9em;
+    width: 0.5em;
+    font-weight: 400;
+    color: #0065FC;
+    background-color: white;
+    border: 0.5px lightgray solid;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 80%;
+
+}
+
+.more {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+    
+    
+}
+
+.accomodation {
+    background-color: #F2F2F2;
+    min-width: 62%;
+    max-width: 62%;   
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 2.5em;
+    padding: 2em;
+       
+}
+
+.accomodation h2 {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2em;
+    margin: 0.75em 2em 1em 2em;
+    padding-top: 0.5em;
+}
+
+
+
+.acc-txt p {
+    margin: auto;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    padding: 0.2em;
+}
+
+.acc-txt h3 {
+    margin: auto;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    padding: 0.2em; 
+}
+
+.acc-txt .rating {
+    margin: auto;
+    padding: 0.2em;
+}
+
+.acc-txt {
+    margin-left: 1em;
+    
+}
+
+.accomodation .wrapper .hotel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 28%;   
+    height: 20em;
+    margin: 2em;
+    padding: 0.5em;
+    border-radius: 2em;
+    box-shadow: 1em 0.5em 0.5em lightgray;
+}
+
+.wrapper .hotel  img {
+    width: 100%;
+    height: 13em;
+    margin-bottom: 10px;
+    border-radius: 2em 2em 0 0;
+    object-fit: cover;
+    
+}
+
+
+
+.show {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    margin: 2em 2em 1em 3.4em;
+}
+
+
+.popular {
+    background-color: #F2F2F2;
+    min-width: 29%;
+    max-width: 29%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-radius: 3em;
+    padding: 2em;
+}
+
+.popular h2 {
+    display: inline-block;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2em;
+    padding: 0.5em 0 0px 0.5em;
+    margin: 0.75em 0 1em 0.75em;
+}
+
+
+.popular i {
+    display: inline-block;
+    margin-top: 1.4em;
+    padding-right: 1.6em;
+    
+}
+
+.popular .most-txt {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.popular .wrapper2 .hotel {
+    width: 90%;
+    margin: 3em auto;
+    height: 16em;
+    background-color: white;
+    border-radius: 2em;
+    box-shadow: 1em 0.5em 0.5em lightgray;
+}
+
+.popular .hotel img {
+    vertical-align: middle;
+    padding: 0.5em;
+    width: 14em;
+    height: 15em;
+    border-radius: 2em 0 0 2em;
+    object-fit: cover;
+    
+}
+
+.popular .wrapper2 .hotel .container {
+    display: flex;
+}
+
+.details h3 {
+    margin-top: 1em;
+    margin-right: 1em;
+    height: 3em;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    padding: 0.2em; 
+}
+
+.details p {
+    margin: auto;
+    height: 4em;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    padding: 0.2em;
+    
+}
+
+.pop-text .rating {
+    margin: auto;
+    padding: 0.2em;
+}
+
+.pop-text {
+    margin-left: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;    
+}
+
+li a {
+    
+    display: block;
+    text-align: center;
+}
+
+.fa {
+    color: lightgray;
+}
+
+.checked {
+    color: #0065FC;
+}
+
+
+.activities h2 {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2em;
+    margin: 2em 2em 1em 1em;
+}
+
+.wrapper3 {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.act {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px 3px whitesmoke;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.act img {
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+    object-fit: cover;
+}
+
+.img-short {
+    height: 14em;
+    object-fit: cover;
+}
+
+.img-pf {
+    height: 18em;
+    object-fit: cover;
+}
+
+.img-fi {
+    height: 10em;
+    object-fit: cover;
+}
+
+
+.int-wrapper3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 43em;
+    min-width: 45%;
+    max-width: 45%;
+    margin: 0 auto;
+}
+
+.int-wrapper3 .act:nth-child(1) {
+    height: 60%;
+    margin-bottom: 2.5em;
+    
+}
+
+
+
+.int-wrapper3 .act:nth-child(2) {
+    height: 40%;
+    
+}
+
+#act5, #act6 {
+    height: 50%;
+}
+
+.wrapper3 .act-wrap {
+    display: flex; 
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
+
+}
+
+.act-tab {
+    display: flex;
+    margin: 0;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+.act-tab > .act:nth-child(2n + 1) {
+    height: 43em;
+    width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+}
+
+.act-tab > .act img:nth-child(2n + 1) {
+    height: 37em;
+    width: 100%;
+}
+
+.wrapper3 h3 {
+    padding: 0;
+    font-weight: 700;
+    font-size: 1.8em;
+    font-family: 'Raleway', sans-serif;
+    margin: 1em;
+}
+
+footer {
+    background-color: #F2F2F2;
+    margin-top: 5em;
+    width: 100%;
+    
+}
+
+.foot {
+    min-width: 88%;
+    max-width: 88%;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    height: 20em;
+}
+
+.misc {
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    margin: 2em 6em;
+}
+
+
+
+
+/* Smartphone */
+@media screen and (max-width: 480px) {
+ 
+    body, html {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 2em 0 2.5em 0;
+        height: 9em;
+        
+    }
+
+    .logo-nav-sub1 #res-logo {
+        width: 8em;
+        min-width: 8em;
+        height: 4em;
+    }
+
+    .logo-nav-sub1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 50%;
+        margin: 0;
+        height: 90%;
+        
+    }
+    
+    #nav-act {
+        border-bottom: 2px solid whitesmoke;
+        padding-bottom: 10px;
+        
+    }
+
+    #nav-acc {
+        text-align: center;
+        border-bottom: 2px solid #0065FC;
+        width: 100%;  
+        padding-bottom: 10px;
+        
+    }
+
+
+    #nav-signup {
+        text-align: end;
+        margin-top: 1em;
+    }
+
+
+
+
+    .logo-nav-sub2 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: initial;
+        width: 50%;
+        margin: 0;
+        text-align: center;
+        height: 90%;
+    
+    }
+
+    .intro-line {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    
+    main {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    .intro-line {
+        width: 400px;
+    }
+
+    .search_wrapper {
+        min-width: 80%;
+        max-width: 80%;
+    }
+
+    .search_wrapper .search_field {
+        width: 70%;
+        min-width: 70%;
+        max-width: 70%;
+    }
+
+
+    .search-txt {
+        display: none;
+    }
+
+    .search-btn .fa-search {
+        display: block;
+        
+    }
+
+    .search-btn {
+        border-radius: 1em;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .filter {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .filter button {
+        margin-bottom: 10px;
+    }
+
+    .buttons {
+        width: 100%; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .buttons .btn:nth-child(1) {
+        order: 1;
+    }
+    .buttons .btn:nth-child(2) {
+        order: 3;
+    }
+    .buttons .btn:nth-child(3) {
+        order: 2;
+    }
+    .buttons .btn:nth-child(4) {
+        order: 4;
+    }
+    
+
+     .wrapper3 {
+        width: 100%;
+        margin: 0;
+    }
+    
+    
+    .act-wrap {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    
+    .act-tab {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 2.5em;
+        min-width: 100%;
+        max-width: 100%;
+        padding-bottom: 0;
+    }
+
+    
+    .activities h2 {
+        text-align: center;
+    }
+
+    
+    .act {
+        margin: 0 auto;
+        margin-bottom: 2.5em;
+        min-width: 80%;
+        max-width: 80%;
+        height: 200px;
+        width: 80%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .act img {
+        width: 100%;
+    }
+
+    
+    .int-wrapper3 {
+        margin: 0 auto;
+        min-width: 100%;
+        max-width: 100%;
+        
+    }
+    
+    #act-2, #act-3, #act5, #act6 {
+        height: 200px;
+        
+    }
+
+    .img-fi, .img-pf, .img-short {
+        height: 150px;
+    }
+
+    
+    .act-tab > .act:nth-child(2n + 1) {
+        height: 200px;
+        width: 80%;
+        min-width: 80%;
+        max-width: 80%;
+        
+    }
+
+    .act-tab > .act img:nth-child(2n + 1) {
+        height: 150px;
+    }
+
+    
+
+
+    main .first-half {
+        flex-direction: column-reverse;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .accomodation .wrapper .hotel {
+        margin: 0 auto;
+        margin-bottom: 2em;
+        
+    }
+
+    .accomodation {
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .accomodation .hotel {
+        min-width: 80%;
+        max-width: 80%;
+
+        
+    }
+
+    .popular {
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%; 
+        margin: 0;  
+        padding: 0;
+        margin-bottom: 2em;
+
+    }
+
+    .wrapper2 .hotel {
+        min-width: 80%;
+        max-width: 80%; 
+        margin: 0;
+    } 
+
+
+    .foot {
+        display: flex;
+        flex-direction: column
+    }
+
+    footer {
+        width: 100%;
+
+    }
+
+    .foot {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+}
+
+/* Tablet */
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    
+    body, html {
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 2em 0 2.5em 0;
+        height: 9em;
+        
+    }
+
+    .logo-nav-sub1 #res-logo {
+        width: 8em;
+        min-width: 8em;
+        height: 4em;
+    }
+
+    .logo-nav-sub1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 50%;
+        margin: 0;
+        height: 90%;
+        
+    }
+    
+    #nav-act {
+        border-bottom: 2px solid whitesmoke;
+        padding-bottom: 10px;
+        
+    }
+
+    #nav-acc {
+        text-align: center;
+        border-bottom: 2px solid #0065FC;
+        width: 100%;  
+        padding-bottom: 10px;
+        
+    }
+
+
+    #nav-signup {
+        text-align: end;
+        margin-top: 1em;
+    }
+
+
+
+
+    .logo-nav-sub2 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: initial;
+        width: 50%;
+        margin: 0;
+        text-align: center;
+        height: 90%;
+    
+    }
+
+    main {
+        width: 100%;
+    }
+    
+    main .first-half {
+        flex-direction: column-reverse;
+    }
+
+    .accomodation {
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%; 
+        margin: 0;
+        margin-top: 2em;  
+        padding: 0;
+    }
+
+    .accomodation .wrapper .hotel {
+        min-width: 20em;
+        max-width: 20em;
+    }
+
+    .accomodation h2 {
+        text-align: center;
+    }
+    
+    .popular {
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%; 
+        margin: 0;  
+        padding: 0;
+    }
+
+    .wrapper3 {
+        margin: 0 auto;
+        min-width: 100%;
+        max-width: 100%;
+        
+    }
+
+
+    .wrapper2 .hotel {
+        width: 50%;
+        min-width: 36em;
+        max-width: 36em; 
+        margin: auto;
+    } 
+
+    .wrapper2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .act-wrap {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .act-tab {
+        min-width: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    
+    .activities {
+        margin: 0 auto;
+    }
+
+    .activities h2 {
+        text-align: center;
+    }
+
+    .act {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        min-width: 23em;
+        
+    }
+
+    #act-long1, #act-long2 {
+        min-width: 23em;
+        
+    }
+
+    .filter {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: fit-content;
+        margin: 1em;
+    }
+
+    footer {
+        width: 100%;
+
+    }
+
+    .foot {
+        width: 100%;
+    }
+
+    .misc {
+
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.3em;
+        margin: 1.5em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+    
+    .logo-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 2em 0 2.5em 0;
+        height: 9em;
+        
+    }
+
+    .logo-nav-sub1 #res-logo {
+        width: 8em;
+        min-width: 8em;
+        height: 4em;
+    }
+
+    .logo-nav-sub1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 50%;
+        margin: 0;
+        height: 90%;
+        
+    }
+    
+    #nav-act {
+        border-bottom: 2px solid whitesmoke;
+        padding-bottom: 10px;   
+    }
+
+
+    #nav-acc {
+        text-align: center;
+        border-bottom: 2px solid #0065FC;
+        width: 100%;  
+        padding-bottom: 10px;
+            
+    }
+
+
+    #nav-signup {
+        text-align: end;
+        margin-top: 1em;
+    }
+
+
+
+
+    .logo-nav-sub2 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: initial;
+        width: 50%;
+        margin: 0;
+        text-align: center;
+        height: 90%;
+    
+    }
+
+    .filter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+
+    }
+    
+    
+    main .first-half {
+        display: flex;
+        flex-direction: column-reverse;
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0;
+        
+    }
+
+    .accomodation {
+        background-color: #F2F2F2;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0;
+        margin-top: 2em;
+        padding: 0;
+    }
+
+    .accomodation h2 {
+        text-align: center;
+    }
+
+    .accomodation .hotel {
+        min-width: 25%;
+        max-width: 25%;
+        margin: 0 auto;
+    }
+
+    .popular {
+        background-color: #F2F2F2;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%; 
+        margin: 0;  
+        padding: 0;
+    }
+
+    .most-txt {
+        display: flex;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .popular .hotel {
+        min-width: 45%;
+        max-width: 45%;
+    }
+
+
+    .act-wrap {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .act-tab {
+        display: flex;
+        justify-content: space-around;
+        min-width: 70%;
+        max-width: 70%;
+        margin: 0 auto;
+        margin-bottom: 2.5em;
+    }
+
+    .activities h2 {
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+
+    }
+
+    .foot {
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1151px) and (max-width: 1345px){
+    body, html {
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+
+    .accomodation {
+        background-color: #F2F2F2;
+        min-width: 62%;
+        max-width: 62%;
+    }
+
+    .popular {
+        background-color: #F2F2F2;
+        min-width: 29%;
+        max-width: 29%;
+    }
+
+    .accomodation .wrapper .hotel {
+        width: 40%;   
+    }
+    
+    footer {
+        width: 100%;
+
+    }
+
+    .foot {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1346px) and (max-width: 1779px){
+    body, html {
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+
+    .accomodation {
+        background-color: #F2F2F2;
+        min-width: 62%;
+        max-width: 62%;
+    }
+
+    .popular {
+        background-color: #F2F2F2;
+        min-width: 29%;
+        max-width: 29%;
+    }
+
+    .accomodation .wrapper .hotel {
+        width: 26%;   
+    }
+
+    .popular .wrapper2 .hotel {
+        width: 90%;
+    }
+
+    
+    .misc {
+        
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.3em;
+        margin: 2em 6em;
+    }
+
+
+
+}
+
+
+
+/* @media screen and (min-width: 480px) and (max-width: 768px) {
+    
+    body, html {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    
+    main .first-half {
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0;
+        
+    }
+
+    main {
+        width: 100%;
+
+    }
+
+    .accomodation {
+        background-color: #F2F2F2;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0;
+        margin-top: 2em;
+        padding: 0;
+    }
+
+    .popular {
+        background-color: #F2F2F2;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%; 
+        margin: 0;  
+        padding: 0;
+    }
+
+    footer {
+        width: 100%;
+
+    }
+
+    .foot {
+        width: 100%;
+    }
+} */
