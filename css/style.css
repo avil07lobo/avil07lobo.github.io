@@ -217,6 +217,7 @@ main {
     margin-bottom: 1em;
     padding: 0;
     text-align: center;
+    outline: none;
 }
 
 .buttons .btn strong {
